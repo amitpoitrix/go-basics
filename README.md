@@ -1,4 +1,4 @@
-# go-basics
+# Go Basics
 Introduction to Go Programming Language
 
 ### To build a go code
@@ -16,4 +16,3 @@ Above code will directly generate executable file that we can direcly run
 ```
 go run <go-file-path>
 ```
-~
