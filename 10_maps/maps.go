@@ -8,8 +8,9 @@ import (
 // map -> hash, object, dictionary
 // key-value pair in Go
 func main() {
-	// In Go we create map using make()
+	// In Go we declare map using make()
 	m := make(map[string]string)
+
 	// setting element in map
 	m["tech"] = "golang"
 	m["area"] = "backend"
@@ -34,7 +35,7 @@ func main() {
 	fmt.Println(m1)
 
 
-	// Another way of defining map if we know key-value pair forefront
+	// Another way of declaring & initializing map
 	m2 := map[string]int{"phone": 1, "model": 2023}
 	fmt.Println(m2)
 
