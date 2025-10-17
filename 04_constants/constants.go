@@ -9,9 +9,16 @@ const age = 28
 // age := 28 // through compilation error
 
 func main() {
+	// Constants - Immutable values which cannot be changed
+	// const - keyword to declare constant
+	// const pi = 3.14
+	// const pi float32 = 3.14
 	// const language string = "golang"
-	const language = "golang"
+
+	// var is used to declare variable which can be changed
 	// language := "golang" // It is not constant as its var instead of const
+	
+	const language = "golang"
 	
 	fmt.Println(language)
 

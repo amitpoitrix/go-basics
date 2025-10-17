@@ -4,10 +4,15 @@ import "fmt"
 
 func main() {
 	/* string */
+	// Explicit way of declaring variable with type
 	// var name string = "Amit"
+
+	// Implicit way of declaring variable without type
 	// var name = "Amit" // this will infer the string type
 
 	// Shorthand syntax - when we want to declare and assign variable at the same time
+	// This is the most common way of declaring variables in Go
+	// Note: := can only be used inside functions, not at package level
 	name := "Amit" 
 
 	fmt.Println(name)
