@@ -15,7 +15,7 @@ type post struct {
 }
 
 /* 
-Now this inc() is a common resource that is being accesed by multiple g routines leading to race condition 
+Now this inc() is a common resource that is being accesed by multiple go routines leading to race condition 
 Now in order to avoid this we gonna use mutex(in struct from sync.Mutex) that'll preveent this race condition
 */
 func (p *post) inc(wg *sync.WaitGroup) {

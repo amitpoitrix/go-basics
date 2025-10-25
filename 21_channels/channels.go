@@ -28,7 +28,7 @@ func processNum(numChan <-chan int) {
 func sum(result chan<- int, num1 int, num2 int) {
 	totalSum := num1 + num2
 
-	/* sending result to channel */
+	/* sending totalSum to result channel */
 	result <- totalSum
 }
 
@@ -98,7 +98,7 @@ func main() {
 	// fmt.Println(response)
 
 	/*
-		In order to make go routine synchronize we've make main() wait for its completion for which we make
+		In order to make "go routine synchronize" we've make main() wait for its completion for which we make
 		use of time.Sleep() but its not a good practice
 		Another way is to use sync.WaitGroup()
 		OR
