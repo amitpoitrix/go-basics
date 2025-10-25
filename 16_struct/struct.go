@@ -27,9 +27,9 @@ type order struct {
 
 /*
 Like in other OOPS languages we've class properties along with there behaviour in the form of methods
-Here in Go, we can create custom function and attch it to struct that will act as behaviour for that struct
+Here in Go, we can create custom function and attach it to struct that will act as behaviour(or method) for that struct
 
-(o *order) -> this is receiver type
+(o *order) -> this is pointer receiver type
 Here we're changing the field value of struct than we've to use pointer i.e., o *order
 As per convention use first letter of struct to name receiver type variable
 */

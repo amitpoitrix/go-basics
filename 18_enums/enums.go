@@ -7,8 +7,9 @@ In Go,
 we don't have enums so we'll make use of const to achieve the same
 */
 
-/* First create a custom type and use it for first enum field, rest will follow in incremental fashion in case
-type is int, in case of string we've assign value manually
+/* 
+First create a custom type and use it for first enum field, rest will follow in incremental fashion in case
+type is int, in case of string we've to assign value manually
 */
 // type Status int
 

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // func sum(a int, b int) int {
-func sum(a, b int) int { // prior to b & b itself will be of type int
+func sum(a, b int) int { // a & b itself will be of type int
 	return a + b
 }
 

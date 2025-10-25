@@ -19,8 +19,8 @@ func main() {
 	fmt.Println("Using Range")
 	
 	// below range returns 2 values first is index & second is value
-	// Note: If you don't want to use first variable value i.e., index than give variable name as "_" else
-	// Go will through compilation error
+	// Note: If you don't want to use first variable value i.e., index than give variable name as "_" 
+	// else Go will through compilation error
 	for _, num := range nums {
 		fmt.Println(num)
 	}
@@ -40,15 +40,16 @@ func main() {
 
 
 	// Iterating over string using for range
+	// here range iterates over runes in the string
+	// rune is an alias for int32 & represents a Unicode code point
+	// Note: string is a collection of runes in Go
+	// So, when we iterate over string using range it gives index & rune value
+	// To convert rune to string we can use string() conversion
 	fmt.Println()
 	fmt.Println("Iterating over string using for range")
 
 	str := "golang"
-	
-	// unicode code point rune
-	// starting byte of rune
-	// 300 -> uses 2 bytes and character till value 0 to 255 uses 1 byte
-	// So here i is not index but starting byte of each and every character
+	// here i is index & c is character (rune)
 	for i, c := range str {
 		fmt.Println(i, c, string(c))
 	}
