@@ -1,0 +1,47 @@
+# Architecture specifics and binary targets
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage reports
+*.test
+*.out
+c.out
+coverage.txt
+
+# Dependency directories
+# (Uncomment the line below if you do not want to check in your vendored dependencies)
+# vendor/
+
+# Go workspaces
+go.work
+go.work.sum
+
+# IDEs and Text Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environmental variables / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -8,17 +8,10 @@ const age = 28
 // we can't use := outside the main()
 // age := 28 // through compilation error
 
-func main() {
-	// Constants - Immutable values which cannot be changed
-	// const - keyword to declare constant
-	// const pi = 3.14
-	// const pi float32 = 3.14
+func main1() {
 	// const language string = "golang"
-
-	// var is used to declare variable which can be changed
-	// language := "golang" // It is not constant as its var instead of const
-	
 	const language = "golang"
+	// language := "golang" // It is not constant as its var instead of const
 	
 	fmt.Println(language)
 
@@ -33,4 +26,14 @@ func main() {
 
 	fmt.Println(port, host)
 }
-  
+
+/*
+Data Types in Go
+int8
+int16
+int32 also known as rune
+int64
+
+float32 -> will do ceil after 5 decimal point
+float63 -> it won't
+*/

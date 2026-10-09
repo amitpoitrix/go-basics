@@ -6,9 +6,11 @@ import (
 )
 
 /*
-In Go,
-goroutines uses channels to communicate with each other so we send data to channel which is being 
-received as data to another goroutines
+	Channels in Go
+	Channels are a concurrency pattern that allows safe communication between goroutines
+
+	channel := make(chan type) // Unbuffered channel - require sender and receiver must be ready at the same time
+	channel := make(chan type, capacity) // buffered channel - sender should be ready and receiver need not to be ready  
 */
 
 /* Receiving Channel */
@@ -28,7 +30,7 @@ func processNum(numChan <-chan int) {
 func sum(result chan<- int, num1 int, num2 int) {
 	totalSum := num1 + num2
 
-	/* sending totalSum to result channel */
+	/* sending result to channel */
 	result <- totalSum
 }
 
@@ -98,7 +100,7 @@ func main() {
 	// fmt.Println(response)
 
 	/*
-		In order to make "go routine synchronize" we've make main() wait for its completion for which we make
+		In order to make go routine synchronize we've make main() wait for its completion for which we make
 		use of time.Sleep() but its not a good practice
 		Another way is to use sync.WaitGroup()
 		OR

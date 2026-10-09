@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // func sum(a int, b int) int {
-func sum(a, b int) int { // a & b itself will be of type int
+func sum(a, b int) int { // prior to b & b itself will be of type int
 	return a + b
 }
 
@@ -50,3 +50,9 @@ func main() {
 
 	fmt.Println(finalresult)
 }
+
+/*
+defer
+defer always runs at last 
+If there are more than one defer than it executes in LIFO(Last In First Out) order
+*/
