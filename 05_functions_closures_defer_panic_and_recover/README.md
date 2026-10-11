@@ -1,7 +1,5 @@
 # Functions, Closures, Defer, Panic and Recover in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. Function basics
 
 A Go function can return several values, name its results, and accept a variable number of arguments.

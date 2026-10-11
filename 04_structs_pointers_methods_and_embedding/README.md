@@ -1,7 +1,5 @@
 # Structs, Pointers, Methods and Embedding in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. Struct basics
 
 A struct groups named fields into one value type, and it is Go's replacement for a class.

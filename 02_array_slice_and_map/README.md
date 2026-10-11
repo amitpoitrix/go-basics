@@ -1,7 +1,5 @@
 # Arrays, Slices and Maps in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. At a glance
 
 An array is a fixed-size value, a slice is a resizable view over an array, and a map is a hash table of key-value pairs.

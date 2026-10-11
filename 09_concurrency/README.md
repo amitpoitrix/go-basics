@@ -1,7 +1,5 @@
 # Concurrency in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. Goroutines
 
 A goroutine is a function running independently of its caller, started with the `go` keyword and scheduled by the Go runtime rather than the operating system.

@@ -1,7 +1,5 @@
 # Generics in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. Why generics exist
 
 Generics let you write one function or type that works for many types, while the compiler still checks every use.

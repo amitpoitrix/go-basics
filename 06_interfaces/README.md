@@ -1,7 +1,5 @@
 # Interfaces in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. What an interface is
 
 An interface is a set of method signatures, and any type that has those methods satisfies it automatically, with no `implements` keyword.

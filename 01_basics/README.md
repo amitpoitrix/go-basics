@@ -1,7 +1,5 @@
 # Go Basics: Variables, Types, Control Flow and Loops
 
-Oct 11, 2026 · @HR
-
 ## 1. Program structure
 
 Every Go file belongs to a package, and an executable program starts at the `main` function of package `main`.

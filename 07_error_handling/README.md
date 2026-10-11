@@ -1,7 +1,5 @@
 # Error Handling in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. Errors are values
 
 Go has no exceptions: a function that can fail returns an `error` as its last result, and the caller checks it straight away.
