@@ -1,7 +1,5 @@
 # Strings in Go
 
-Oct 11, 2026 · @HR
-
 ## 1. What a string is
 
 A Go string is an immutable sequence of bytes that usually holds UTF-8 text.
