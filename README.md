@@ -1,7 +1,5 @@
 # Go Interview Prep: Basics to Advanced
 
-Oct 10, 2026 · @HR
-
 ## How to use this guide
 
 Each section gives the concept, a short example, and the interview points that follow from it. Examples assume Go 1.22 or newer, and notes mark where older versions behave differently. For a last-minute revision, skip to the rapid-fire table at the end.
